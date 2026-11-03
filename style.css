@@ -915,6 +915,15 @@ letter-spacing: 0%;
     box-shadow: 0px 0px 30px 0px #00000017;
 border-radius: 10px;
 }
+.k35{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
 @media (max-width:500px) {
     .c1 {
         width: 100%;
@@ -1274,4 +1283,8 @@ text-align: center;
 .k26{width: 100%;}
 .k25{width: 100%; 
 margin: 5px;}
+.k35{
+    overflow: scroll;
+    gap: 10px;
+}
 }
