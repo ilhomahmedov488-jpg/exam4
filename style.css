@@ -1067,8 +1067,108 @@
 {
     width: 50%;
 }
+.k47{
+    width: 100%;
+    background-image: url(Rectangle\ 1992.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Rectangle\ 1992.png);
+margin-top: 100px;
 
+}
+.k48{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.k49{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+margin-top: 130px;
+}
+.k50{
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+.k51{
+    width:70%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.k52{
+    margin-bottom: 130px;
+}
+.k53{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.k54{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.k56{
+    margin-left: 20px;
+}
+.k57{
+    margin-top: 19px;
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+
+}
+.k58{
+    width: 279px;
+    margin-top: 10px;
+    font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+
+}
+.k59{
+    margin-top: 35px;
+    font-family: Montserrat;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+
+}
 @media (max-width:500px) {
+    body{
+        overflow-x: hidden;
+    }
     .c1 {
         width: 100%;
 
@@ -1507,5 +1607,23 @@
     }
     .k44{
         gap: 20px;
+    }
+    .k47{
+        width: 100%;
+        margin: auto;
+    }
+    .c51{
+        width: 90%;
+        margin: auto;
+    }
+    .k53{
+        width: 100%;
+        margin: auto;
+    }
+    .k54{
+        flex-direction: column;
+    }
+    .k55{
+        width: 80%;
     }
 }
